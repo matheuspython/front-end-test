@@ -1,15 +1,16 @@
 import React from 'react';
 
-import { StyledHeader } from './styles';
-import logo from '../../assets/logo.png'
+import { StyledHeader } from './style';
+import logo from '../../assets/Logo.png'
 
 
 function Header() {
   return (
   <StyledHeader>
-    
-    <img src={logo}/>
+    <div className="container">
+    <img src={logo} alt="logo do site" />
 
+    </div>
   </StyledHeader>
   )
 }
