@@ -17,7 +17,6 @@ export default createGlobalStyle`
     box-sizing: border-box;
   }
   html,body{
-    height: 100%;
     font-family: 'Open Sans', sans-serif;
   }
   ul{
@@ -27,3 +26,5 @@ export default createGlobalStyle`
     background: linear-gradient(359.39deg, #EFEEEE 0.46%, #FFFFFF 99.42%);
   }
 `
+
+
